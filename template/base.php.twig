@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>LAZPET</title>
+    <meta name="description" content="We understand the power of perception, this is why we create products and services to reflect your right image and ultimately create the right perception about you in their minds">
+    <meta name="author" content="LAZPET">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="{{ url }}css/base.css">
+    <link rel="stylesheet" href="{{ url }}css/vendor.css">
+    <link rel="stylesheet" href="{{ url }}css/main.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="{{ url }}js/modernizr.js"></script>
+    <script src="{{ url }}js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+{% include "particals/header.php.twig" %} {% block body %} {% endblock body %} {% include "particals/footer.php.twig" %}
+</body>
+
+</html>
